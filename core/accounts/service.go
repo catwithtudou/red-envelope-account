@@ -2,9 +2,9 @@ package accounts
 
 import (
 	"errors"
+	"github.com/catwithtudou/red-envelope-account/services"
 	"github.com/catwithtudou/red-envelope-infra/base"
 	"github.com/shopspring/decimal"
-	"red-envelope-account/services"
 	"sync"
 )
 

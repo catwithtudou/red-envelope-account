@@ -1,10 +1,10 @@
 package red_envelope_account
 
 import (
+	_ "github.com/catwithtudou/red-envelope-account/apis/web"
+	_ "github.com/catwithtudou/red-envelope-account/core/accounts"
 	"github.com/catwithtudou/red-envelope-infra"
 	"github.com/catwithtudou/red-envelope-infra/base"
-	_ "red-envelope-account/apis/web"
-	_ "red-envelope-account/core/accounts"
 )
 
 func init() {

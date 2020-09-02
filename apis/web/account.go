@@ -1,11 +1,11 @@
 package web
 
 import (
+	"github.com/catwithtudou/red-envelope-account/services"
 	"github.com/catwithtudou/red-envelope-infra"
 	"github.com/catwithtudou/red-envelope-infra/base"
 	"github.com/kataras/iris"
 	"github.com/sirupsen/logrus"
-	"red-envelope-account/services"
 )
 
 const (

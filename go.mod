@@ -1,4 +1,4 @@
-module red-envelope-account
+module github.com/catwithtudou/red-envelope-account
 
 go 1.12
 

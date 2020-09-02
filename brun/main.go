@@ -1,10 +1,10 @@
 package main
 
 import (
+	_ "github.com/catwithtudou/red-envelope-account"
 	"github.com/catwithtudou/red-envelope-infra"
 	"github.com/tietang/props/ini"
 	"github.com/tietang/props/kvs"
-	_ "red-envelope-account"
 )
 
 func main() {
